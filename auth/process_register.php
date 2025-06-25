@@ -1,4 +1,3 @@
-$statement->bind_param("ssssis", $name, $userName, $email, $hashedPassword, $points, $createdAt);
 <?php
 session_start();
 require_once '../config/db.php';
