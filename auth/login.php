@@ -7,6 +7,11 @@
         echo $_SESSION['login_error'];
         unset($_SESSION['login_error']);
     }
+
+    if (!empty($_SESSION['register_success'])) {
+        echo $_SESSION['register_success'];
+        unset($_SESSION['register_success']);
+    }
     ?>
 </div>
 
